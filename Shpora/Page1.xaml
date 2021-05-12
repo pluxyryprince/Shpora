@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Shpora.Page1">
+    <ContentPage.Content >
+        <ScrollView>
+            <StackLayout >
+                <Label x:Name="one" Text="{StaticResource Key=identities}" IsVisible="false" 
+                VerticalOptions="Fill" FontSize="22" FontFamily="Calibri"
+                HorizontalOptions="CenterAndExpand" />
+                <Label x:Name="two" Text="{StaticResource Key=double_corners}" IsVisible="false" 
+                VerticalOptions="Start" FontSize="20" FontFamily="Calibri"
+                HorizontalOptions="CenterAndExpand" />
+                <Label x:Name="three" Text="{StaticResource Key=sin_summ}" IsVisible="false" 
+                VerticalOptions="Fill" FontSize="19" FontFamily="Calibri"
+                HorizontalOptions="CenterAndExpand" />
+                <Label x:Name="four" Text="{StaticResource Key=sum_sin}" IsVisible="false" 
+                FontSize="18" FontFamily="Calibri" HorizontalTextAlignment="left"
+                HorizontalOptions="CenterAndExpand" />
+                <Label x:Name="five" Text="{StaticResource Key=trible_corners}" IsVisible="false" 
+                VerticalOptions="Start" FontSize="21" FontFamily="Calibri" HorizontalTextAlignment="left"
+                HorizontalOptions="Start" />
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

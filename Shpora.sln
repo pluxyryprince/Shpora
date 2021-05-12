@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31129.286
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shpora.Android", "Shpora.Android\Shpora.Android.csproj", "{B46E9B2F-BF69-42F9-AF03-5B7E7742DE27}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shpora", "Shpora\Shpora.csproj", "{2A9002FB-501D-44FB-899C-2BF286A5F3D4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B46E9B2F-BF69-42F9-AF03-5B7E7742DE27}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B46E9B2F-BF69-42F9-AF03-5B7E7742DE27}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B46E9B2F-BF69-42F9-AF03-5B7E7742DE27}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{B46E9B2F-BF69-42F9-AF03-5B7E7742DE27}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B46E9B2F-BF69-42F9-AF03-5B7E7742DE27}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B46E9B2F-BF69-42F9-AF03-5B7E7742DE27}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{2A9002FB-501D-44FB-899C-2BF286A5F3D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A9002FB-501D-44FB-899C-2BF286A5F3D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A9002FB-501D-44FB-899C-2BF286A5F3D4}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{2A9002FB-501D-44FB-899C-2BF286A5F3D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A9002FB-501D-44FB-899C-2BF286A5F3D4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2A9002FB-501D-44FB-899C-2BF286A5F3D4}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0DEC76B3-79A7-4C64-B8D5-FBA2456CB2D0}
+	EndGlobalSection
+EndGlobal

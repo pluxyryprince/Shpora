@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Shpora.MainPage">
+
+    <StackLayout BackgroundColor="#535353">
+        <ListView x:Name="CommiesList"
+              HasUnevenRows="True"
+              ItemsSource="{Binding Commies}"
+                  SeparatorColor="Aqua"
+                  ItemSelected="CommiesList_ItemSelected"
+                 
+                  >
+
+            <ListView.Header>
+                <StackLayout Orientation="Horizontal">
+                    <Label Text="Шпаргалка 'Основные тригонометрические формулы' " FontSize="25" Padding="30" HorizontalTextAlignment="Center" VerticalTextAlignment="Center"
+                           BackgroundColor="#343434" HorizontalOptions="FillAndExpand" />
+                </StackLayout>
+            </ListView.Header>
+
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <TextCell Height="100" 
+                        Text="{Binding Name}"
+
+                        TextColor="#FFFFFF" 
+                        />
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+    </StackLayout>
+
+</ContentPage>

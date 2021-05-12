@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Application xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Shpora.App">
+    <Application.Resources>
+        <ResourceDictionary>
+
+            <x:String x:Key="identities">
+                
+                sin^2(a) + cos^2(a) = 1
+                
+                tg^2(a) + 1 = 1 / cos^2(a)
+                
+                tg(a) = sin(a) / cos(a)
+                
+                1 + ctg^2(a) = 1 / sin^2(a)
+                
+                ctg(a) = cos(a) / sin(a)
+                
+                tg(a) * ctg(a) = 1
+                
+            </x:String>
+            
+
+            <x:String x:Key="double_corners"> 
+                
+                sin(2a) = 2sin(a) * cos(a)
+                
+                cos(2a) = cos^2(a) - sin^2(a)
+                
+                cos(2a) = 2cos^2(a) - 1 = 1 - 2sin^2(a)
+                
+                tg(2a) = 2tg(a) / 1 - tg^2(a)
+            </x:String>
+
+            
+            <x:String x:Key="sin_summ">
+                sin(a+b) = sin(a) * cos (b) + cos(a) * sin(b)
+                
+                sin(a-b) = sin(a) * cos(b) - cos(a) * sin(b)
+                
+                cos(a+b) = cos(a) * cos(b) - sin(a) * sin(b)
+                
+                cos(a-b) = cos(a) * cos(b) + sin(a) * sin(b)
+                
+                tg (a+-b) = tg(a) +- tg(b) / 1+- tg(a) * tg(b)
+               
+                
+            </x:String>
+            
+            
+            <x:String x:Key="sum_sin">
+                sin(a) + sin(b) = 2sin(a+b / 2) * cos(a-b / 2)
+                
+                sin(a) - sin(b) = 2sin(a-b / 2) * cos(a+b / 2)
+                
+                cos(a) + cos(b) = 2cos(a+b / 2) * cos(a-b / 2)
+                
+                cos(a) - cos(b) = -2sin(a-b / 2) * sin(a+b / 2)
+            </x:String>
+            
+            
+            <x:String x:Key="trible_corners"> 
+                sin^3(a) = 3sin*(a) - 4sin^3(a)
+                
+                cos3(a) = 3cos^3(a) - 3cos(a)
+            </x:String>
+            
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>
