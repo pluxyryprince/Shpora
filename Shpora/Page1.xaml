@@ -6,14 +6,14 @@
         <ScrollView>
             <StackLayout >
                 <Label x:Name="one" Text="{StaticResource Key=identities}" IsVisible="false" 
-                VerticalOptions="Fill" FontSize="22" FontFamily="Calibri"
-                HorizontalOptions="CenterAndExpand" />
+                VerticalOptions="Fill" FontSize="22" FontFamily="Calibri" HorizontalTextAlignment="left"
+                HorizontalOptions="Start" />
                 <Label x:Name="two" Text="{StaticResource Key=double_corners}" IsVisible="false" 
-                VerticalOptions="Start" FontSize="20" FontFamily="Calibri"
+                VerticalOptions="Start" FontSize="20" FontFamily="Calibri" HorizontalTextAlignment="left"
                 HorizontalOptions="CenterAndExpand" />
                 <Label x:Name="three" Text="{StaticResource Key=sin_summ}" IsVisible="false" 
-                VerticalOptions="Fill" FontSize="19" FontFamily="Calibri"
-                HorizontalOptions="CenterAndExpand" />
+                VerticalOptions="Fill" FontSize="18" FontFamily="Calibri" HorizontalTextAlignment="Start"
+                HorizontalOptions="Start" />
                 <Label x:Name="four" Text="{StaticResource Key=sum_sin}" IsVisible="false" 
                 FontSize="18" FontFamily="Calibri" HorizontalTextAlignment="left"
                 HorizontalOptions="CenterAndExpand" />
