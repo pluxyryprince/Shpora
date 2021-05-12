@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 using Xamarin.Forms;
-namespace Shpora
+namespace Shpora_Update
 {
     public class Commi
     {

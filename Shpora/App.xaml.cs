@@ -1,6 +1,6 @@
 ﻿using Xamarin.Forms;
 
-namespace Shpora
+namespace Shpora_Update
 {
     public partial class App : Application
     {

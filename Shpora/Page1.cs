@@ -1,7 +1,7 @@
 ﻿using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
-namespace Shpora
+namespace Shpora_Update
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class Page1 : ContentPage

@@ -1,25 +1,15 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="Shpora.Page1">
+             x:Class="Shpora_Update.Page1">
     <ContentPage.Content >
         <ScrollView>
             <StackLayout >
-                <Label x:Name="one" Text="{StaticResource Key=identities}" IsVisible="false" 
-                VerticalOptions="Fill" FontSize="22" FontFamily="Calibri" HorizontalTextAlignment="left"
-                HorizontalOptions="Start" />
-                <Label x:Name="two" Text="{StaticResource Key=double_corners}" IsVisible="false" 
-                VerticalOptions="Start" FontSize="20" FontFamily="Calibri" HorizontalTextAlignment="left"
-                HorizontalOptions="CenterAndExpand" />
-                <Label x:Name="three" Text="{StaticResource Key=sin_summ}" IsVisible="false" 
-                VerticalOptions="Fill" FontSize="18" FontFamily="Calibri" HorizontalTextAlignment="Start"
-                HorizontalOptions="Start" />
-                <Label x:Name="four" Text="{StaticResource Key=sum_sin}" IsVisible="false" 
-                FontSize="18" FontFamily="Calibri" HorizontalTextAlignment="left"
-                HorizontalOptions="CenterAndExpand" />
-                <Label x:Name="five" Text="{StaticResource Key=trible_corners}" IsVisible="false" 
-                VerticalOptions="Start" FontSize="21" FontFamily="Calibri" HorizontalTextAlignment="left"
-                HorizontalOptions="Start" />
+                <WebView x:Name="one" Source="https://ru.wikipedia.org/wiki/%D0%A2%D1%80%D0%B8%D0%B3%D0%BE%D0%BD%D0%BE%D0%BC%D0%B5%D1%82%D1%80%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B5_%D1%82%D0%BE%D0%B6%D0%B4%D0%B5%D1%81%D1%82%D0%B2%D0%B0" VerticalOptions="FillAndExpand" IsVisible="false" />
+                <WebView x:Name="two" Source="https://zaochnik.com/spravochnik/matematika/trigonometrija/formuly-dvojnogo-ugla-v-trigonometrii/" VerticalOptions="FillAndExpand" IsVisible="false" />
+                <WebView x:Name="three" Source="https://www.yaklass.ru/p/algebra/10-klass/formuly-preobrazovaniia-trigonometricheskikh-vyrazhenii-9146/formuly-sinusa-summy-i-raznosti-kosinusa-summy-i-raznosti-9136/re-54ca81ae-b672-444d-ae36-77d38496e3b5" VerticalOptions="FillAndExpand" IsVisible="false" />
+                <WebView x:Name="four" Source="https://resh.edu.ru/subject/lesson/4238/conspect/107825/" VerticalOptions="FillAndExpand" IsVisible="false" />
+                <WebView x:Name="five" Source="https://www.bymath.net/studyguide/tri/sec/tri9.html" VerticalOptions="FillAndExpand" IsVisible="false" />
             </StackLayout>
         </ScrollView>
     </ContentPage.Content>
